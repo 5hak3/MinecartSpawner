@@ -1,0 +1,6 @@
+name: MinecartSpawner
+version: '${project.version}'
+main: net.azisaba.tsl.minecartspawner.MinecartSpawner
+api-version: 1.18
+authors: [ 5hak3 ]
+description: Right Click to Spawn Minecart on Rail
