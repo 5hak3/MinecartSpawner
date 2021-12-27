@@ -7,7 +7,6 @@ public final class MinecartSpawner extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
         getServer().getPluginManager().registerEvents(new Spawn(),this);
         getServer().getPluginManager().registerEvents(new Despawn(),this);
     }
